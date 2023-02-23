@@ -110,7 +110,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   description = "kbaek999 Blog"
 
   # website images for Open Graph and Twitter Cards
-  images = ["/logo.png"]
+  images = [""]
 
   # Header config
   [params.header]
@@ -226,11 +226,11 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # Gravatar Email for preferred avatar in home page
       gravatarEmail = ""
       # URL of avatar shown in home page
-      avatarURL = ""
+      avatarURL = "/images/profile.png"
       # title shown in home page (HTML format is supported)
       title = "kbaek999"
       # subtitle shown in home page (HTML format is supported)
-      subtitle = "기술과 여행, 일본생활 블로그"
+      subtitle = "기술과 여행, 일상생활 블로그"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
@@ -407,7 +407,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       Instapaper = false
       Pocket = false
       Flipboard = false
-      Weibo = true
+      Weibo = false
       Blogger = false
       Baidu = false
       Odnoklassniki = false
