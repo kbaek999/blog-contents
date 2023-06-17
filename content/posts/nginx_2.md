@@ -3,7 +3,6 @@ Title: "고성능 부하분산을 위한 엔진엑스 활용 방법-1 (HTTP)"
 date: 2023-06-17T12:11:35+09:00
 tags: [nginx]
 categories: [Tech]
-draft: true
 ---
 
 ## 고성능 부하분산 필요성
