@@ -349,7 +349,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # whether to keep the static table of the contents in front of the post
       keepStatic = false
       # whether to make the table of the contents in the sidebar automatically collapsed
-      auto = true
+      auto = false
 
     # Code config
     [params.page.code]
@@ -418,13 +418,13 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
     # Comment config
     [params.page.comment]
-      enable = false
+      enable = true
 
       # Disqus comment config (https://disqus.com/)
       [params.page.comment.disqus]
-        enable = false
+        enable = true
         # Disqus shortname to use Disqus in posts
-        shortname = ""
+        shortname = "comment-test-11"
 
       # Gitalk comment config (https://github.com/gitalk/gitalk)
       [params.page.comment.gitalk]
@@ -602,3 +602,11 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     polyfill = false
     # whether to use object-fit-images to be compatible with older browsers
     objectFit = false
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
