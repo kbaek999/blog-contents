@@ -19,15 +19,15 @@ https://developer.twitter.com/en/portal/dashboard
 
 `Redirect URL` 랑 `Website URL` 은 트위터url로 설정해도 문제없음.
 
-![App permissions](img_1.jpg)
+![App permissions](../img_1.jpg)
 
-![App info](img_2.jpg)
+![App info](../img_2.jpg)
 
 설정 완료 후 앱의 `Keys and tokens` 에서 `API Key and Secret` , `Access Token and Secret` 를 `Regenerate` 해서 따로 저장해둠.
 
 퍼미션도 `Read and Write` 인지 확인.
 
-![Keys and tokens](img_3.jpg)
+![Keys and tokens](../img_3.jpg)
 
 ## 2. Twitter API를 사용해서 트윗
 
@@ -65,7 +65,7 @@ client.create_tweet(text = text)
 
 ### 실행 결과
 
-![Twit Result](img_4.jpg)
+![Twit Result](../img_4.jpg)
 
 ## 3. Youtube영상의 정보를 트윗
 
@@ -152,4 +152,4 @@ else:
 New Video:  바다에서 사는 바자우 부족 마을에서의 멋진 하루 【인도네시아5】 https://youtu.be/5TIgtb39KJ0
 ```
 
-![Twit Result](img_5.jpg)
+![Twit Result](../img_5.jpg)
